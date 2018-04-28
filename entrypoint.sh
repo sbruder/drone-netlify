@@ -1,4 +1,6 @@
 #!/bin/sh
+set -e
+
 if ! [ -e ".netlify" ]; then
     echo "“.netlify” is missing, create it in your repository with “netlify deploy”"
     exit 1
