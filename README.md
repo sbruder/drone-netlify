@@ -20,8 +20,8 @@ pipeline:
     secrets: [ netlify_key ]
 ```
 
-Your repository has to be initialized with the netlify-cli before (a `.netlify`
-file has to exist).
+Your repository has to be initialized with `netlifyctl deploy` before (a
+`netlify.toml` file has to exist).
 
 ## Parameter/Secret Reference
 
